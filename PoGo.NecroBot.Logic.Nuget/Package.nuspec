@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PoGo.NecroBot.Logic.NetCore</id>
+    <version>1.0.0.3</version>
+    <title>PoGo.NecroBot.Logic.NetCore</title>
+    <authors>cormaltes</authors>
+    <licenseUrl>https://www.gnu.org/copyleft/lesser.html</licenseUrl>
+    <projectUrl>https://github.com/cormaltes/GPSOAuthSharp</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>description</description>
+    <tags>tag</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.6">
+        <dependency id="NETStandard.Library" version="1.6.0"/>
+        <dependency id="System.Net.Http" version="4.1.0"/>
+        <dependency id="GeoCoordinate.NetCore" version="1.0.0.1"/>
+        <dependency id="PokemonGo.RocketAPI.NetCore" version="1.0.1.16"/>
+        <dependency id="Microsoft.AspNetCore.WebUtilities" version="1.0.0"/>
+        <dependency id="System.Xml.XmlDocument" version="4.0.1"/>
+        <dependency id="System.Diagnostics.Process" version="4.1.0"/>
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+  </files>
+</package>

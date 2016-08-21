@@ -1,0 +1,22 @@
+{
+  "title": "PoGo.NecroBot.Logic.NetCore",
+  "version": "1.0.0-3",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "GeoCoordinate.NetCore": "1.0.0.1",
+    "PokemonGo.RocketAPI.NetCore": "1.0.1.16",
+    "Microsoft.AspNetCore.WebUtilities": "1.0.0",
+    "System.Xml.XmlDocument": "4.0.1",
+    "System.Net.Http": "4.1.0",
+    "System.Diagnostics.Process": "4.1.0",
+    "System.Reflection.TypeExtensions": "4.1.0",
+    "System.Threading.Thread": "4.0.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
