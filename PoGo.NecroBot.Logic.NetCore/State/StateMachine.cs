@@ -34,7 +34,7 @@ namespace PoGo.NecroBot.Logic.State
         {
             var state = initialState;
             var profilePath = Path.Combine(Directory.GetCurrentDirectory(), "");
-            var profileConfigPath = Path.Combine(profilePath, "config");
+            var profileConfigPath = Path.Combine(profilePath, "Config");
 
             //FileSystemWatcher configWatcher = new FileSystemWatcher();
             //configWatcher.Path = profileConfigPath;
