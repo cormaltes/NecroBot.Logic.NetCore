@@ -322,7 +322,7 @@ namespace PoGo.NecroBot.Logic.Model.Settings
         {
             GlobalSettings settings = null;
             var profilePath = Path.Combine(Directory.GetCurrentDirectory(), path);
-            var profileConfigPath = Path.Combine(profilePath, "config");
+            var profileConfigPath = Path.Combine(profilePath, "Config");
             var configFile = Path.Combine(profileConfigPath, "config.json");
             var shouldExit = false;
 
@@ -400,7 +400,7 @@ namespace PoGo.NecroBot.Logic.Model.Settings
 
             settings.ProfilePath = profilePath;
             settings.ProfileConfigPath = profileConfigPath;
-            settings.GeneralConfigPath = Path.Combine(Directory.GetCurrentDirectory(), "config");
+            settings.GeneralConfigPath = Path.Combine(Directory.GetCurrentDirectory(), "Config");
 
             if (!boolSkipSave || !settings.UpdateSettings.AutoUpdate)
             {
